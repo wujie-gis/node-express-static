@@ -1,0 +1,17 @@
+{
+  "name": "express-static",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "set NODE_ENV='development' && tsnd app.js",
+    "pro": "set NODE_ENV='production' && tsnd app.js "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.17.3"
+  }
+}
