@@ -21,7 +21,7 @@ app.use((req, res, next) => {
 
 app.use(express.static(path.join(__dirname, "dist"), options));
 
-app.listen(8081, "localhost", function () {
+app.listen(8081, function () {
   console.log("server is running on 8081");
 });
 
